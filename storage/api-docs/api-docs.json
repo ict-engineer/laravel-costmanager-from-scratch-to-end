@@ -1,0 +1,23 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Core API",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/add-shop": {
+            "post": {
+                "summary": "Add Shop",
+                "operationId": "App\\Http\\Controllers\\Admin\\ApiShopController::addShop",
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}

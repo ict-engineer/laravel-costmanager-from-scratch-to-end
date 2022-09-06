@@ -1,0 +1,102 @@
+/*----------------------------------------
+    Profile Page
+------------------------------------------*/
+.user-profile-header {
+    width: 100%;
+    height: 220px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.mt-negative-tab {
+    margin-top: -0.5rem;
+}
+#user-profile .user-section-negative-margin
+{
+    position: relative;
+
+    margin-top: -115px;
+}
+
+#user-profile .card-border
+{
+    border-radius: 10px;
+}
+
+#user-profile .photo-border
+{
+    border-radius: 6px;
+}
+
+#user-profile .vertical-align-bottom
+{
+    vertical-align: bottom;
+}
+
+#user-profile .vertical-align-middle
+{
+    vertical-align: middle;
+}
+
+#user-profile .user-card-negative-margin
+{
+    margin-top: -13px;
+}
+
+#user-profile .star-width
+{
+    font-size: 20px;
+
+    width: 18px;
+
+    cursor: pointer;
+}
+
+#user-profile .material-icons.vertical-align-middle
+{
+    vertical-align: middle;
+}
+
+#user-profile .latest-update
+{
+    cursor: pointer;
+}
+
+#user-profile .user-projects img.responsive-img
+{
+    cursor: pointer;
+}
+
+#user-profile #feed .social-icon .material-icons
+{
+    cursor: pointer;
+}
+
+#user-profile hr
+{
+    opacity: .4;
+}
+
+.contact-form .input-field input,
+.contact-form .input-field textarea
+{
+    margin-top: .4rem;
+    padding-left: 1rem;
+
+    border: none;
+    border-radius: .3rem;
+    background-color: #eceff1;
+}
+
+.contact-form .input-field label
+{
+    width: auto;
+    margin-left: 1rem;
+}
+
+.contact-form .input-field label .active
+{
+    color: #eceff1 !important;
+}

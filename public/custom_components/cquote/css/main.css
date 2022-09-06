@@ -1,0 +1,335 @@
+li.quote_state_Working {
+    background-color: rgb(253, 171, 61);
+    height: 100%;
+    padding: 5px 10px;
+}
+
+li.quote_state_Rejected,
+li.quote_state_Canceled {
+    background-color: rgb(255, 117, 117);
+    height: 100%;
+    padding: 5px 10px;
+}
+
+li.quote_state_Done {
+    background-color: rgb(190, 75, 211);
+    height: 100%;
+    padding: 5px 10px;
+}
+
+li.quote_state_Paid {
+    background-color: rgb(3, 127, 76);
+    height: 100%;
+    padding: 5px 10px;
+}
+
+li.quote_state_New {
+    background-color: rgb(196, 196, 196);
+    height: 100%;
+    padding: 5px 10px;
+}
+
+li.quote_state_Sent {
+    background-color: rgb(102, 204, 255);
+    height: 100%;
+    padding: 5px 10px;
+}
+
+li.quote_state_Invoiced {
+    background-color: rgb(87, 155, 252);
+    height: 100%;
+    padding: 5px 10px;
+}
+
+div.quote_state_Working {
+    background-color: rgb(253, 171, 61);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.quote_state_Rejected,
+div.quote_state_Canceled {
+    background-color: rgb(255, 117, 117);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.quote_state_Done {
+    background-color: rgb(190, 75, 211);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.quote_state_Paid {
+    background-color: rgb(3, 127, 76);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.quote_state_Sent {
+    background-color: rgb(102, 204, 255);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.quote_state_New {
+    background-color: rgb(196, 196, 196);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.quote_state_Invoiced {
+    background-color: rgb(87, 155, 252);
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curl-top-right {
+    display: inline-block;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    cursor: pointer;
+    color: white;
+    z-index: 10;
+}
+
+.curl-top-right-comment {
+    display: inline-block;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    cursor: pointer;
+    color: white;
+    z-index: 10;
+}
+
+
+.curl-top-right:hover {
+    opacity: 0.8;
+}
+
+.curl-top-right-comment:hover {
+    opacity: 0.8;
+}
+
+.curl-top-right:before {
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    top: 0;
+    right: 0;
+    /* IE9 */
+    background: white;
+    /* IE9 */
+    background: linear-gradient(225deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.3s;
+    transition-property: width height;
+}
+
+.curl-top-right-comment:before {
+    pointer-events: none;
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    top: 0;
+    right: 0;
+    /* IE9 */
+    background: white;
+    /* IE9 */
+    background: linear-gradient(225deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.3s;
+    transition-property: width height;
+}
+
+.curl-top-right:hover:before {
+    width: 15px;
+    height: 15px;
+}
+
+
+#page-length-option>tbody>tr>td:nth-child(6) {
+    padding: 0px !important;
+}
+
+.quote-status-ul {
+    min-width: 150px;
+}
+
+.quote-status-ul {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: absolute;
+    top: 40px;
+    z-index: 11;
+    border-radius: 4px;
+    left: 0;
+    overflow-y: auto;
+    margin: 0;
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background-color: white;
+    color: #323338;
+    box-shadow: 0 18px 36px 0px rgba(0, 0, 0, 0.32);
+}
+
+.quote-status-div {
+    width: 150px;
+    z-index: 11;
+}
+
+.quote-status-div:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition-property: top;
+    z-index: 999999;
+}
+
+.quote_comment_div {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 18px 36px 0px rgba(0, 0, 0, 0.32);
+    z-index: 100;
+}
+
+@media only screen and (max-width: 450px) {
+    .quote_comment_div {
+        width: 250px;
+    }
+}
+
+.quote_comment_div:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition-property: top;
+    z-index: 999999;
+}
+
+.quote-status-ul li {
+    padding: 7px 10px;
+    margin: 5px 10px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-status-ul li:hover {
+    opacity: 0.8;
+}
+
+.add-update-quote {
+    transition: border-width 0.3s 0.2s ease;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2) #fff;
+    border-width: 0;
+    line-height: 7px;
+    font-weight: bold;
+    color: rgb(102, 204, 255, 0);
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.add-update-quote:hover {
+
+    color: rgb(87, 155, 252);
+}
+
+.add-update-quote:hover~.curl-top-right:before {
+    width: 20px;
+    height: 20px;
+}
+
+.quote_comment_div:hover~.curl-top-right:before {
+    width: 20px;
+    height: 20px;
+}
+
+.add-update-quote:hover~.curl-top-right-comment:before {
+    width: 20px;
+    height: 20px;
+}
+
+.quote_comment_div:hover~.curl-top-right-comment:before {
+    width: 20px;
+    height: 20px;
+}
+
+.quote_comment_container {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 1px;
+    margin: 5px;
+}
+
+.quote-comments {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.quote-comments::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.quote-comments::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+}
